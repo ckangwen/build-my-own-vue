@@ -1,0 +1,10 @@
+{
+  "name": "@build-my-own-vue/reactivity",
+  "description": "vue reactivity",
+  "version": "0.0.1",
+  "main": "./src/index.ts",
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.9",
+    "lodash-es": "^4.17.21"
+  }
+}

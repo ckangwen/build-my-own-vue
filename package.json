@@ -1,0 +1,24 @@
+{
+  "name": "build-my-own-vue",
+  "version": "0.0.0",
+  "private": true,
+  "description": "",
+  "license": "MIT",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "test": "vitest",
+    "build": "pnpm --filter=core run build"
+  },
+  "devDependencies": {
+    "@charrue/eslint-config-typescript": "latest",
+    "@charrue/prettier": "^0.2.0",
+    "@types/node": "^18.11.3",
+    "eslint": "^8.3.0",
+    "prettier": "^3.0.3",
+    "typescript": "^4.8.3",
+    "vitest": "^0.34.4"
+  },
+  "engines": {
+    "node": ">=19"
+  }
+}
