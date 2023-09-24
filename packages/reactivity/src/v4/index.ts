@@ -13,6 +13,7 @@ type TargetConnectionMap = WeakMap<object, KeyToDepsMap>;
 let bucket: TargetConnectionMap = new WeakMap();
 
 let activeEffect: Effect | null = null;
+const effectStack: Effect[] = [];
 
 export function reactive<T extends object>(raw: T): T {
   const proxy = new Proxy(raw, {
@@ -38,13 +39,15 @@ export function effect(fn: Function) {
   // 执行 effectFn 之前，需要从所有的依赖集合中删去该 effectFn
   // 包含 effectFn 的依赖集合，可以从 bucket.get(target).get(key) 获取
   // 只有在get或set期间，才能获取到 bucket.get(target).get(key)
-  // TODO: 这个设计方式还没有吃透
   const effectFn = (() => {
     cleanup(effectFn);
     // 需要在effectFn内部赋值，确保每次 副作用函数重新执行后，activeEffect的指向是正确的
     // 如果 activeEffect 在外面赋值，则 activeEffect 指向的是最初的 effectFn
     activeEffect = effectFn;
+    effectStack.push(effectFn);
     fn();
+    effectStack.pop();
+    activeEffect = effectStack[effectStack.length - 1];
   }) as Effect;
 
   effectFn.deps = [];
@@ -88,7 +91,13 @@ function trigger(target: object, key: string | symbol) {
   }
 
   // 重新执行fn的时候会重新收集副作用函数，会导致 effects 无限增加
-  const effectsToRun = new Set(effects);
+  const effectsToRun = new Set<Effect>();
+  effects.forEach(fn => {
+    // 如果正在执行的函数 与 将要执行的副作用函数 相同，则忽略，否则会出现无限调用这个函数的问题
+    if (fn !== activeEffect) {
+      effectsToRun.add(fn);
+    }
+  });
   effectsToRun.forEach(fn => fn());
 }
 
