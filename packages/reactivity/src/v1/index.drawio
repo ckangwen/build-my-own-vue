@@ -1,0 +1,82 @@
+<mxfile host="65bd71144e">
+    <diagram id="l1TPibxyW9gdgfAlCoV7" name="Page-1">
+        <mxGraphModel dx="708" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="45" value="" style="group;strokeColor=none;dashed=1;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="200" y="970" width="550" height="570" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#FFFFFF;" edge="1" parent="45" source="47" target="48">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="WeakMap" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="45">
+                    <mxGeometry width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#FFFFFF;" vertex="1" parent="45">
+                    <mxGeometry y="130" width="110" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="target1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="45">
+                    <mxGeometry x="10" y="150" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeColor=#FFFFFF;" edge="1" parent="45" source="51" target="53">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="Map" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="45">
+                    <mxGeometry x="230" y="145" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FFFFFF;" edge="1" parent="45" source="49" target="51">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#FFFFFF;" vertex="1" parent="45">
+                    <mxGeometry x="230" y="300" width="110" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="key1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="45">
+                    <mxGeometry x="240" y="320" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="Set" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="45">
+                    <mxGeometry x="440" y="315" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFFFFF;" edge="1" parent="45" source="54" target="55">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#FFFFFF;" vertex="1" parent="45">
+                    <mxGeometry x="440" y="380" width="110" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="effectFn1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="45">
+                    <mxGeometry x="450" y="400" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(255, 255, 255); background-color: initial;&quot;&gt;&amp;nbsp;set key&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#FFFFFF;fillColor=none;fontColor=#000000;dashed=1;" vertex="1" parent="45">
+                    <mxGeometry x="70" y="60" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;响应式对象被访问的键名&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#FFFFFF;fillColor=none;fontColor=#FFFFFF;" vertex="1" parent="45">
+                    <mxGeometry x="40" y="350" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.969;entryY=0.133;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FFFFFF;strokeColor=#FFFFFF;" edge="1" parent="45" source="54" target="60">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(255, 255, 255); background-color: initial;&quot;&gt;&amp;nbsp;set key&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#FFFFFF;fillColor=none;fontColor=#000000;dashed=1;" vertex="1" parent="45">
+                    <mxGeometry x="290" y="210" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(255, 255, 255); background-color: initial;&quot;&gt;&amp;nbsp;set value&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#FFFFFF;fillColor=none;fontColor=#000000;dashed=1;" vertex="1" parent="45">
+                    <mxGeometry x="140" y="130" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(255, 255, 255); background-color: initial;&quot;&gt;&amp;nbsp;set value&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#FFFFFF;fillColor=none;fontColor=#000000;dashed=1;" vertex="1" parent="45">
+                    <mxGeometry x="360" y="300" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;副作用函数集合&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;是集合的原因是&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. 可能会有多个effect访问相同的对象属性&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. 去重&lt;br&gt;&lt;br&gt;当响应式对象的属性的值被修改后，会遍历集合并执行副作用函数&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#FFFFFF;fillColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="790" y="1330" width="370" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.024;entryY=0.571;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FFFFFF;strokeColor=#FFFFFF;" edge="1" parent="1" source="58" target="65">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="响应式对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#FFFFFF;fillColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="1125" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" style="edgeStyle=none;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.944;entryY=0.533;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FFFFFF;strokeColor=#FFFFFF;" edge="1" parent="1" source="49" target="67">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

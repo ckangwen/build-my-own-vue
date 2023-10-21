@@ -2,41 +2,49 @@ import { describe } from "node:test";
 import { beforeEach, expect, it, vi } from "vitest";
 import { effect, reactive, reset } from ".";
 
-describe("reactive and effect", () => {
+describe("v3", () => {
   beforeEach(() => {
     reset();
   });
 
-  it("effect", () => {
-    let dummy = 0;
-    const obj = reactive({ a: 1 });
-    expect(dummy).toBe(0);
+  it("should not be triggered by mutating a property, which is used in an inactive branch", () => {
+    let dummy;
+    const obj = reactive({ prop: "value", run: true });
 
-    effect(() => {
-      dummy = obj.a;
+    const conditionalSpy = vi.fn(() => {
+      dummy = obj.run ? obj.prop : "other";
     });
+    effect(conditionalSpy);
 
-    expect(dummy).toBe(1);
-
-    obj.a = 2;
-    expect(dummy).toBe(2);
+    expect(dummy).toBe("value");
+    expect(conditionalSpy).toHaveBeenCalledTimes(1);
+    obj.run = false;
+    expect(dummy).toBe("other");
+    expect(conditionalSpy).toHaveBeenCalledTimes(2);
+    obj.prop = "value2";
+    expect(dummy).toBe("other");
+    expect(conditionalSpy).toHaveBeenCalledTimes(2);
   });
 
-  it("effect", () => {
-    let dummy = 0;
-    const obj = reactive<Record<string, any>>({ a: 1 });
-    const fn = vi.fn(() => {
-      dummy = obj.a;
+  it("should discover new branches while running automatically", () => {
+    let dummy;
+    const obj = reactive({ prop: "value", run: false });
+
+    const conditionalSpy = vi.fn(() => {
+      dummy = obj.run ? obj.prop : "other";
     });
+    effect(conditionalSpy);
 
-    effect(fn);
-    obj.a = 2;
-    obj.notExistKey = 3;
-
-    // effect 触发了2次
-    // 默认执行一次，obj.a = 2 时执行一次
-    // obj.notExistKey = 3 时不会触发
-    expect(dummy).toBe(2);
-    expect(fn).toHaveBeenCalledTimes(2);
+    expect(dummy).toBe("other");
+    expect(conditionalSpy).toHaveBeenCalledTimes(1);
+    obj.prop = "Hi";
+    expect(dummy).toBe("other");
+    expect(conditionalSpy).toHaveBeenCalledTimes(1);
+    obj.run = true;
+    expect(dummy).toBe("Hi");
+    expect(conditionalSpy).toHaveBeenCalledTimes(2);
+    obj.prop = "World";
+    expect(dummy).toBe("World");
+    expect(conditionalSpy).toHaveBeenCalledTimes(3);
   });
 });

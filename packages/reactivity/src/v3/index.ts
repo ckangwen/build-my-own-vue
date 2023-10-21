@@ -12,6 +12,8 @@ type KeyToDepsMap = Map<string | symbol, Deps>;
 type TargetConnectionMap = WeakMap<object, KeyToDepsMap>;
 let bucket: TargetConnectionMap = new WeakMap();
 
+// const effectFnDepsMap = new WeakMap<Function, Deps[]>();
+
 let activeEffect: Effect | null = null;
 
 export function reactive<T extends object>(raw: T): T {
@@ -78,7 +80,11 @@ function track(target: object, key: string | symbol) {
   deps.add(activeEffect);
 
   // 将该键名的依赖集合与当前副作用函数关联，以便于重置该副作用函数的依赖集合
+
   activeEffect.deps.push(deps);
+  // const dep = effectFnDepsMap.get(activeEffect) || [];
+  // dep.push(deps);
+  // effectFnDepsMap.set(activeEffect, dep);
 }
 
 function trigger(target: object, key: string | symbol) {
@@ -98,6 +104,11 @@ function cleanup(effectFn: Effect) {
     dep.delete(effectFn);
   });
   effectFn.deps.length = 0;
+
+  // const deps = effectFnDepsMap.get(effectFn);
+  // deps?.forEach(dep => {
+  //   dep.delete(effectFn);
+  // });
 }
 
 export function reset() {

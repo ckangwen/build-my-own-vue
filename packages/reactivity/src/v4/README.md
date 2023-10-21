@@ -1,35 +1,11 @@
 # V4
 
+- 新增了`effectStack`，用于解决在effect嵌套时，内层effect会覆盖外层effect的问题
+- 更新了`activeEffect`的赋值逻辑，在effectFn执行完毕后再次赋值，指向`effectStack`栈顶的副作用函数(即从内层的effectFn指向外层的effectFn)，使其能够支持effect嵌套
+
 ## 嵌套的effect与effect栈
 
-Vue的渲染函数就是在effect中执行的
-
-```js
-const Foo = () -> {
-  render() {
-    return /** */
-  }
-}
-
-effect(() => {
-  Foo.render()
-})
-```
-
-当组件发生嵌套时，此时就相当于effect发生了嵌套
-
-```js
-
-effect(() => {
-  Foo.render()
-
-  effect(() => {
-    Bar.render()
-  })
-})
-```
-
-**如果effect不支持嵌套会发生什么**
+如果effect不支持嵌套会发生什么
 
 ```js
 effect(function effectFn1() {
@@ -114,11 +90,18 @@ effect(() => {
 })
 ```
 
-在effect注册的副作用函数内存在`obj.foo = obj.foo + 1`，该操作会引起栈溢出
-问题原因是读取和设置操作是在同一个副作用函数内进行的
-此时无论是track时要收集的副作用函数，还是trigger时要触发执行的副作用函数，都是activeEffect
+如果在`effect`内存在自增操作，既读取又赋值，那么会导致无限调用effectFn
 
-基于此，我们可以在trigger发生时增加守卫条件：如果trigger触发执行的副作用函数与当前正在执行的副作用函数相同，则不触发执行
+1. effect(fn) -> fn()
+2. get handler -> track()
+3. set handler -> trigger() -> fn()
+4. get handler -> track()
+5. ...
+
+**问题原因是读取和赋值是在同一个副作用函数内进行的**
+此时无论是`track`时要收集的副作用函数，还是`trigger`时要触发执行的副作用函数，都是同一个`activeEffect`
+
+基于此，我们可以在`trigger`发生时增加条件：如果`trigger`触发执行的副作用函数与当前正在执行的副作用函数相同，则不触发执行
 
 ```ts
 function trigger(target: object, key: string | symbol) {
@@ -138,3 +121,5 @@ function trigger(target: object, key: string | symbol) {
   effectsToRun.forEach(fn => fn());
 }
 ```
+
+这样就能够避免无限递归调用了

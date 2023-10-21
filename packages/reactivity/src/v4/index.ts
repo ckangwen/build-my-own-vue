@@ -32,8 +32,6 @@ export function reactive<T extends object>(raw: T): T {
   return proxy;
 }
 
-// const effectFnDepsMap = new Map()
-
 // WeakMap<target, Map<string, Set<effectFn>>>
 export function effect(fn: Function) {
   // 执行 effectFn 之前，需要从所有的依赖集合中删去该 effectFn
@@ -43,10 +41,12 @@ export function effect(fn: Function) {
     cleanup(effectFn);
     // 需要在effectFn内部赋值，确保每次 副作用函数重新执行后，activeEffect的指向是正确的
     // 如果 activeEffect 在外面赋值，则 activeEffect 指向的是最初的 effectFn
-    activeEffect = effectFn;
     effectStack.push(effectFn);
+    // 等同于 activeEffect = effectStack[effectStack.length - 1];
+    activeEffect = effectFn;
     fn();
     effectStack.pop();
+    // 如果内层的effect执行完毕后，需要将 activeEffect 指向外层的effect
     activeEffect = effectStack[effectStack.length - 1];
   }) as Effect;
 
