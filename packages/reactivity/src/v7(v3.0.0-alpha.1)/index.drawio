@@ -1,0 +1,463 @@
+<mxfile host="65bd71144e">
+    <diagram id="OQw-5UPyFBXKyJ3BWHEq" name="Page-1">
+        <mxGraphModel dx="1666" dy="1416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="97" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fillColor=none;strokeColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="25" y="3180" width="360" height="520" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="-200" y="80" width="1440" height="1580" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="edgeStyle=none;html=1;strokeColor=#FFFFFF;" parent="1" source="4" target="16" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;div style=&quot;font-family: &amp;quot;Fira Code Medium&amp;quot;, &amp;quot;思源黑体 HW&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;fn&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#fad7ac;strokeColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="285" y="150" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="460" width="340" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFFFFF;" parent="1" source="7" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="get proxy handler" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="500" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFFFFF;" parent="1" source="9" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="set proxy handler" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="350" y="500" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FFFFFF;strokeColor=#FFFFFF;" parent="1" source="11" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="260" y="920" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="track" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="660" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;dashed=1;strokeColor=#FFFFFF;" parent="1" source="13" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="trigger" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="470" y="640" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFFFFF;" parent="1" source="16" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;startArrow=none;strokeColor=#FFFFFF;" parent="1" source="49" target="47" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="effect(fn)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="280" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="&lt;font color=&quot;#ffffff&quot;&gt;reactive&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#FFFFFF;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="460" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="group;strokeColor=#FFFFFF;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="200" y="970" width="550" height="570" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#FFFFFF;" parent="18" source="20" target="21" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="WeakMap" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#FFFFFF;fontColor=#000000;" parent="18" vertex="1">
+                    <mxGeometry width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#FFFFFF;" parent="18" vertex="1">
+                    <mxGeometry y="130" width="110" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="target1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#FFFFFF;fontColor=#000000;" parent="18" vertex="1">
+                    <mxGeometry x="10" y="150" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeColor=#FFFFFF;" parent="18" source="24" target="27" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Map" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#FFFFFF;fontColor=#000000;" parent="18" vertex="1">
+                    <mxGeometry x="230" y="145" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FFFFFF;" parent="18" source="22" target="24" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#FFFFFF;" parent="18" vertex="1">
+                    <mxGeometry x="230" y="300" width="110" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="key1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#FFFFFF;fontColor=#000000;" parent="18" vertex="1">
+                    <mxGeometry x="240" y="320" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Set" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#FFFFFF;fontColor=#000000;" parent="18" vertex="1">
+                    <mxGeometry x="440" y="315" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFFFFF;" parent="18" source="28" target="29" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#FFFFFF;" parent="18" vertex="1">
+                    <mxGeometry x="440" y="380" width="110" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="effectFn1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#FFFFFF;fontColor=#000000;" parent="18" vertex="1">
+                    <mxGeometry x="450" y="400" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(255, 255, 255); background-color: initial;&quot;&gt;&amp;nbsp;set key&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#FFFFFF;fillColor=none;fontColor=#000000;dashed=1;" parent="18" vertex="1">
+                    <mxGeometry x="70" y="60" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;响应式对象被访问的键名&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#FFFFFF;fillColor=none;fontColor=#FFFFFF;" parent="18" vertex="1">
+                    <mxGeometry x="40" y="350" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.969;entryY=0.133;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FFFFFF;strokeColor=#FFFFFF;" parent="18" source="28" target="36" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(255, 255, 255); background-color: initial;&quot;&gt;&amp;nbsp;set key&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#FFFFFF;fillColor=none;fontColor=#000000;dashed=1;" parent="18" vertex="1">
+                    <mxGeometry x="290" y="210" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(255, 255, 255); background-color: initial;&quot;&gt;&amp;nbsp;set value&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#FFFFFF;fillColor=none;fontColor=#000000;dashed=1;" parent="18" vertex="1">
+                    <mxGeometry x="140" y="130" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(255, 255, 255); background-color: initial;&quot;&gt;&amp;nbsp;set value&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#FFFFFF;fillColor=none;fontColor=#000000;dashed=1;" parent="18" vertex="1">
+                    <mxGeometry x="360" y="300" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;传给effect的原始函数所组成的集合&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;是集合的原因是&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. 可能会有多个effect访问相同的对象属性&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. 去重&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#FFFFFF;fillColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="810" y="1330" width="250" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.024;entryY=0.571;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FFFFFF;strokeColor=#FFFFFF;" parent="1" source="32" target="38" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="响应式对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#FFFFFF;fillColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="1125" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" style="edgeStyle=none;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.944;entryY=0.533;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FFFFFF;strokeColor=#FFFFFF;" parent="1" source="22" target="40" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="基于 target、key、activeEffect&lt;br&gt;建立如下关系" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#FFFFFF;fillColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="755" width="190" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="基于 target、key&lt;br&gt;查找到该属性的依赖函数集合&lt;br&gt;遍历执行" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#FFFFFF;fillColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="720" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.002;entryY=0.415;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontColor=#FFFFFF;strokeColor=#FFFFFF;" parent="1" source="45" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="&lt;div style=&quot;color: rgb(187, 187, 187); font-family: &amp;quot;Fira Code Medium&amp;quot;, &amp;quot;思源黑体 HW&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: rgb(184, 119, 219); font-style: italic;&quot;&gt;const&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: rgb(233, 86, 120);&quot;&gt;obj&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;font-style: italic;&quot;&gt;=&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: rgb(37, 176, 188);&quot;&gt;reactive&lt;/span&gt;({&amp;nbsp;&lt;span style=&quot;color: rgb(233, 86, 120);&quot;&gt;a&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: rgb(240, 148, 131);&quot;&gt;1&lt;/span&gt;&amp;nbsp;});&lt;/div&gt;&lt;div style=&quot;color: rgb(187, 187, 187); font-family: &amp;quot;Fira Code Medium&amp;quot;, &amp;quot;思源黑体 HW&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;&lt;span style=&quot;color: rgb(37, 176, 188);&quot;&gt;&amp;nbsp; &amp;nbsp; effect&lt;/span&gt;(()&amp;nbsp;&lt;span style=&quot;color: rgb(184, 119, 219); font-style: italic;&quot;&gt;=&amp;gt;&lt;/span&gt;&amp;nbsp;{&lt;/div&gt;&lt;div style=&quot;color: rgb(187, 187, 187); font-family: &amp;quot;Fira Code Medium&amp;quot;, &amp;quot;思源黑体 HW&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: rgb(233, 86, 120);&quot;&gt;dummy&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;font-style: italic;&quot;&gt;=&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: rgb(233, 86, 120);&quot;&gt;obj&lt;/span&gt;.&lt;span style=&quot;color: rgb(233, 86, 120);&quot;&gt;a&lt;/span&gt;;&lt;/div&gt;&lt;div style=&quot;color: rgb(187, 187, 187); font-family: &amp;quot;Fira Code Medium&amp;quot;, &amp;quot;思源黑体 HW&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; });&lt;/div&gt;&lt;div style=&quot;color: rgb(187, 187, 187); font-family: &amp;quot;Fira Code Medium&amp;quot;, &amp;quot;思源黑体 HW&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(233, 86, 120);&quot;&gt;&amp;nbsp; &amp;nbsp; obj&lt;/span&gt;.&lt;span style=&quot;color: rgb(233, 86, 120);&quot;&gt;a&lt;/span&gt; &lt;span style=&quot;font-style: italic;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: rgb(240, 148, 131);&quot;&gt;2&lt;/span&gt;;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;fillColor=none;align=left;strokeColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="-780" y="670" width="350" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontColor=#FFFFFF;dashed=1;strokeColor=#FFFFFF;" parent="1" source="47" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="840" y="810"/>
+                            <mxPoint x="290" y="810"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="activeEffect" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="750" y="280" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;endArrow=none;strokeColor=#FFFFFF;" parent="1" source="16" target="49" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="400" y="310" as="sourcePoint"/>
+                        <mxPoint x="700" y="310" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="49" value="activeEffect = fn" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#FFFFFF;fillColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="610" y="295" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="trigger" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="2100" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="ref" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="-310" y="1810" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="&lt;div&gt;interface &lt;b&gt;&lt;font color=&quot;#ffb366&quot;&gt;ReactiveEffect&lt;/font&gt;&lt;/b&gt;&amp;lt;T = any&amp;gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; (): T;&lt;/div&gt;&lt;div&gt;&amp;nbsp; _isEffect: true;&lt;/div&gt;&lt;div&gt;&amp;nbsp; active: boolean;&lt;/div&gt;&lt;div&gt;&amp;nbsp; raw: () =&amp;gt; T;&lt;/div&gt;&lt;div&gt;&amp;nbsp; deps: Dep[];&lt;/div&gt;&lt;div&gt;&amp;nbsp; options: ReactiveEffectOptions;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Lucida Console;spacingLeft=0;spacing=6;strokeColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="-560" y="1920" width="270" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontFamily=Lucida Console;strokeColor=#FFFFFF;" edge="1" parent="1" source="62" target="61">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="effect" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="-550" y="1760" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="lazy" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Lucida Console;strokeColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="-360" y="2100" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="cleanup(reactiveEffect)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;strokeColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="-550" y="2250" width="210" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="effectStack" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;strokeColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="-800" y="2350" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Lucida Console;strokeColor=#FFFFFF;" edge="1" parent="1" source="68" target="67">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="入栈" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;strokeColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="-555" y="2360" width="215" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="activeEffect" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;strokeColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="-810" y="2490" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.983;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Lucida Console;strokeColor=#FFFFFF;" edge="1" parent="1" source="71" target="70">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="记录当前的effect" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;strokeColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="-560" y="2480" width="225" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Lucida Console;fontColor=#FFB366;strokeColor=#FFFFFF;" edge="1" parent="1" source="73" target="59">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="fn()" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;strokeColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="-555" y="2620" width="225" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontFamily=Lucida Console;strokeColor=#FFFFFF;" edge="1" parent="1" source="74" target="67">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="pop()" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;strokeColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="-545" y="2720" width="215" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;strokeColor=#FFFFFF;" edge="1" parent="1" source="76" target="70">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="activeEffect = effectStack[effectStack.length - 1]" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;strokeColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="-557.5" y="2830" width="225" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="" style="endArrow=classic;html=1;fontFamily=Lucida Console;exitX=0.444;exitY=1.013;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFFFFF;" edge="1" parent="1" source="61" target="73">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-430" y="2180" as="sourcePoint"/>
+                        <mxPoint x="-380" y="2130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="79" value="执行effect内部函数的时候，&lt;br&gt;会访问reactive属性&lt;br&gt;会触发proxy 的get handler" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#FFFFFF;fillColor=none;fontFamily=Lucida Console;" vertex="1" parent="1">
+                    <mxGeometry x="-310" y="2590" width="190" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="" style="group;fontColor=#FFFFFF;strokeColor=#FFFFFF;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="-30" y="2510" width="230" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="get" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;strokeColor=#FFFFFF;" vertex="1" parent="82">
+                    <mxGeometry x="10" y="40" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=#FFFFFF;strokeColor=#FFFFFF;" vertex="1" parent="82">
+                    <mxGeometry width="230" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="get" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;strokeColor=#FFFFFF;" vertex="1" parent="82">
+                    <mxGeometry x="130" y="40" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="reactive" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#FFFFFF;fillColor=none;fontFamily=Lucida Console;fontColor=#FFB366;fontStyle=1" vertex="1" parent="82">
+                    <mxGeometry width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="" style="group;fontColor=#FFFFFF;strokeColor=#FFFFFF;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="240" y="2220" width="230" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="get" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;strokeColor=#FFFFFF;" vertex="1" parent="83">
+                    <mxGeometry x="10" y="40" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=#FFFFFF;strokeColor=#FFFFFF;" vertex="1" parent="83">
+                    <mxGeometry width="230" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="get" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;strokeColor=#FFFFFF;" vertex="1" parent="83">
+                    <mxGeometry x="130" y="40" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="reactive" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#FFFFFF;fillColor=none;fontFamily=Lucida Console;fontColor=#FFB366;fontStyle=1" vertex="1" parent="83">
+                    <mxGeometry width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="Target" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Lucida Console;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="25" y="3260" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=#FFFFFF;strokeColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="3260" width="220" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="Key" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Lucida Console;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="3275" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="ReactiveEffect&lt;br&gt;ReactiveEffect&lt;br&gt;......&lt;br&gt;ReactiveEffect" style="whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=#FFFFFF;strokeColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="3275" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="" style="endArrow=classic;html=1;fontFamily=Lucida Console;fontColor=#FFFFFF;entryX=-0.006;entryY=0.087;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FFFFFF;" edge="1" parent="1" target="94">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="95" y="3270" as="sourcePoint"/>
+                        <mxPoint x="165" y="3260" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="100" value="" style="endArrow=classic;html=1;fontFamily=Lucida Console;fontColor=#FFFFFF;entryX=0.022;entryY=0.152;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.943;exitY=0.484;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FFFFFF;" edge="1" parent="1" source="95" target="96">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="155" y="3290" as="sourcePoint"/>
+                        <mxPoint x="215" y="3280" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="103" value="Target" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Lucida Console;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="25" y="3410" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=#FFFFFF;strokeColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="3410" width="220" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="Key" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Lucida Console;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="3425" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="ReactiveEffect&lt;br&gt;ReactiveEffect&lt;br&gt;......&lt;br&gt;ReactiveEffect" style="whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=#FFFFFF;strokeColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="3425" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="" style="endArrow=classic;html=1;fontFamily=Lucida Console;fontColor=#FFFFFF;entryX=-0.006;entryY=0.087;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FFFFFF;" edge="1" parent="1" target="104">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="95" y="3420" as="sourcePoint"/>
+                        <mxPoint x="165" y="3410" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="108" value="" style="endArrow=classic;html=1;fontFamily=Lucida Console;fontColor=#FFFFFF;entryX=0.022;entryY=0.152;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.943;exitY=0.484;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FFFFFF;" edge="1" parent="1" source="105" target="106">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="155" y="3440" as="sourcePoint"/>
+                        <mxPoint x="215" y="3430" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="109" value="&lt;font color=&quot;#00cc00&quot;&gt;Target&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Lucida Console;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="25" y="3560" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.999;entryY=0.677;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Lucida Console;fontColor=#FFB366;strokeColor=#FFFFFF;dashed=1;" edge="1" parent="1" source="110" target="116">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="470" y="3620"/>
+                            <mxPoint x="470" y="3942"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="110" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=#FFFFFF;strokeColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="3560" width="220" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="Key" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Lucida Console;fontColor=#00CC00;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="3575" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="ReactiveEffect" style="whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=#00CC00;verticalAlign=top;strokeColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="3575" width="120" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="" style="endArrow=classic;html=1;fontFamily=Lucida Console;fontColor=#FFFFFF;entryX=-0.006;entryY=0.087;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FFFFFF;" edge="1" parent="1" target="110">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="95" y="3570" as="sourcePoint"/>
+                        <mxPoint x="165" y="3560" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="114" value="" style="endArrow=classic;html=1;fontFamily=Lucida Console;fontColor=#FFFFFF;entryX=0.022;entryY=0.152;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.943;exitY=0.484;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FFFFFF;" edge="1" parent="1" source="111" target="112">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="155" y="3590" as="sourcePoint"/>
+                        <mxPoint x="215" y="3580" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="115" value="&lt;font&gt;targetMap&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Lucida Console;fontColor=#FFB366;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="25" y="3180" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" value="&lt;font color=&quot;#ffffff&quot;&gt;activeEffect.deps.push(dep)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Lucida Console;fontColor=#FFB366;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="3740" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="120" value="" style="group;strokeColor=none;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="30" y="3810" width="270" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" value="&lt;div&gt;interface &lt;b&gt;&lt;font color=&quot;#ffb366&quot;&gt;ReactiveEffect&lt;/font&gt;&lt;/b&gt;&amp;lt;T = any&amp;gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; (): T;&lt;/div&gt;&lt;div&gt;&amp;nbsp; _isEffect: true;&lt;/div&gt;&lt;div&gt;&amp;nbsp; active: boolean;&lt;/div&gt;&lt;div&gt;&amp;nbsp; raw: () =&amp;gt; T;&lt;/div&gt;&lt;div&gt;&amp;nbsp; deps: Dep[];&lt;/div&gt;&lt;div&gt;&amp;nbsp; options: ReactiveEffectOptions;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Lucida Console;spacingLeft=0;spacing=6;strokeColor=#FFFFFF;" vertex="1" parent="120">
+                    <mxGeometry y="30" width="270" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="119" value="&lt;span&gt;activeEffect&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Lucida Console;fontColor=#FFB366;fontStyle=1" vertex="1" parent="120">
+                    <mxGeometry width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="122" value="新增" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Lucida Console;fontColor=#00CC00;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="3530" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="123" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fillColor=none;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="-70" y="3120" width="800" height="1070" as="geometry"/>
+                </mxCell>
+                <mxCell id="124" value="&lt;font color=&quot;#ffb366&quot;&gt;&lt;b&gt;track(target, type, key)&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Lucida Console;fontColor=#00CC00;" vertex="1" parent="1">
+                    <mxGeometry x="-70" y="3120" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="163" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFFFFF;fontFamily=Lucida Console;fontColor=#FFFFFF;" edge="1" parent="1" source="125" target="153">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="125" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fillColor=none;strokeColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="25" y="4460" width="360" height="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="126" value="Target" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Lucida Console;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="25" y="4540" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="127" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=#FFFFFF;strokeColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="4540" width="220" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="128" value="Key" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Lucida Console;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="4555" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="129" value="ReactiveEffect&lt;br&gt;ReactiveEffect&lt;br&gt;......&lt;br&gt;ReactiveEffect" style="whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=#FFFFFF;strokeColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="4555" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="130" value="" style="endArrow=classic;html=1;fontFamily=Lucida Console;fontColor=#FFFFFF;entryX=-0.006;entryY=0.087;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FFFFFF;" edge="1" parent="1" target="127">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="95" y="4550" as="sourcePoint"/>
+                        <mxPoint x="165" y="4540" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="131" value="" style="endArrow=classic;html=1;fontFamily=Lucida Console;fontColor=#FFFFFF;entryX=0.022;entryY=0.152;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.943;exitY=0.484;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FFFFFF;" edge="1" parent="1" source="128" target="129">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="155" y="4570" as="sourcePoint"/>
+                        <mxPoint x="215" y="4560" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="132" value="Target" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Lucida Console;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="25" y="4690" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="133" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=#FFFFFF;strokeColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="4690" width="220" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="134" value="Key" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Lucida Console;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="4705" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="135" value="ReactiveEffect&lt;br&gt;ReactiveEffect&lt;br&gt;......&lt;br&gt;ReactiveEffect" style="whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontColor=#FFFFFF;strokeColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="4705" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="136" value="" style="endArrow=classic;html=1;fontFamily=Lucida Console;fontColor=#FFFFFF;entryX=-0.006;entryY=0.087;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FFFFFF;" edge="1" parent="1" target="133">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="95" y="4700" as="sourcePoint"/>
+                        <mxPoint x="165" y="4690" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="137" value="" style="endArrow=classic;html=1;fontFamily=Lucida Console;fontColor=#FFFFFF;entryX=0.022;entryY=0.152;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.943;exitY=0.484;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FFFFFF;" edge="1" parent="1" source="134" target="135">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="155" y="4720" as="sourcePoint"/>
+                        <mxPoint x="215" y="4710" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="145" value="&lt;font&gt;targetMap&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Lucida Console;fontColor=#FFB366;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="25" y="4460" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="151" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fillColor=none;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="1260" y="4490" width="800" height="1070" as="geometry"/>
+                </mxCell>
+                <mxCell id="152" value="&lt;font color=&quot;#ffb366&quot;&gt;&lt;b&gt;trigger(target, type, key, extraInfo)&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Lucida Console;fontColor=#00CC00;" vertex="1" parent="1">
+                    <mxGeometry y="4400" width="300" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="160" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#FFFFFF;fontFamily=Lucida Console;fontColor=#FFFFFF;" edge="1" parent="1" source="153" target="155">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="153" value="&lt;font color=&quot;#ffffff&quot;&gt;depsMap&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontFamily=Lucida Console;fontColor=#FFB366;" vertex="1" parent="1">
+                    <mxGeometry x="41.25" y="4900" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="154" value="&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;computedRunners&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;.forEach(run)&lt;/span&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;effects.forEach(run)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontFamily=Lucida Console;fontColor=#FFB366;" vertex="1" parent="1">
+                    <mxGeometry x="-11.25" y="5310" width="225" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="158" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#FFFFFF;fontFamily=Lucida Console;fontColor=#FFFFFF;" edge="1" parent="1" source="155" target="156">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="155" value="&lt;font color=&quot;#ffffff&quot;&gt;addRunners&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontFamily=Lucida Console;fontColor=#FFB366;" vertex="1" parent="1">
+                    <mxGeometry x="41.25" y="5010" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="161" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#FFFFFF;fontFamily=Lucida Console;fontColor=#FFFFFF;" edge="1" parent="1" source="156" target="154">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="156" value="&lt;font color=&quot;#ffffff&quot;&gt;effects、computedRunners&lt;br&gt;Set&amp;lt;ReactiveEffect&amp;gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontFamily=Lucida Console;fontColor=#FFB366;" vertex="1" parent="1">
+                    <mxGeometry x="-3.75" y="5150" width="210" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="157" value="遍历 depsMap.get(key)&lt;br&gt;将它们存入一个新的Set中&lt;br&gt;并且区分是否是computed的effect" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Lucida Console;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="5010" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="159" value="遍历插入对应的Set" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Lucida Console;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="115" y="5085" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="162" value="遍历执行&lt;br&gt;先执行 computed 的effect&lt;br&gt;因为在一般的effect中可能会使用到 computed" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Lucida Console;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="235" y="5310" width="290" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="164" value="target.key发生变化&lt;br&gt;需要获取到 与 target.key 相关的所有的 ReactiveEffect&lt;br&gt;以便于重新调用他们以进行更新" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Lucida Console;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="4890" width="370" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
